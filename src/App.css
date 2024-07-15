@@ -1,42 +1,94 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+:root {
+      --background-color: #fff;
+      --btn-color: #0987f2;
+      --btn-text-color: #fff;
+      --project-card-bg: #ffffff00;
+      --text-color: #222;
+      --form-text-color: #555;
+      --footer-text-color: #888;
+    }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+    [data-theme='dark'] {
+      --background-color: #222;
+      --btn-color: #fff;
+      --btn-text-color: #222;
+      --project-card-bg: #fff;
+      --text-color: #fff;
+      --form-text-color: #fff;
+      --footer-text-color: #bbb;
+    }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    body{
+      background-color: var(--background-color);
+      display: flex;
+      justify-content: center;
+      margin:0 auto 60px;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+    #root{
+      display: flex;
+      flex-direction:column;
+      gap:60px;
+    }
 
-.card {
-  padding: 2em;
-}
+    h1,h2,h3,p{
+      color:var(--text-color);
+      margin: 0;
+      padding: 0;
+    }
 
-.read-the-docs {
-  color: #888;
-}
+    h2,h3,p{
+      font-family:'Roboto Mono',monospace;
+    }
+
+    h1,h2{
+      text-transform:uppercase;
+    }
+
+    h2,
+    h3{
+      font-size:20px;
+    }
+
+    h1{
+      font-family:'Rubik','sans-serif';
+      font-size:32px;
+    }
+
+    p{
+      font-size:16px;
+      font-weight:300;
+    }
+
+    .sectionTitle{
+      margin-button:30px;
+    }
+    
+    .hover{
+      cursor:pointer;
+    }
+    
+    input,textarea{
+      background-color:var(--background-color);
+      color: var(--form-text-color);
+      border:#888 1px solid;
+    }
+
+    input[type='submit']{
+     background-color:var(--btn-color);
+     color: var(--btn-text-color);
+     border:none;
+     border-radius:20px;
+     margin:auton;
+     box-shadow:0 2px 2px rgba(0,0,0,0.25)
+
+ }
+
+ input[type='submit']:hover{
+  transform:scale(1.02)
+ }
+
+ 
+ input[type='submit']:active{
+  box-shadow:0 2px 2px rgba(0,0,0,0.25)
+ }
