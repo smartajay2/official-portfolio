@@ -36,6 +36,8 @@ function Skills() {
         <SkillsList src={Checkmark} alt="Checkmark icon" p="Webpack" />
         <SkillsList src={Checkmark} alt="Checkmark icon" p="Git" />
         <SkillsList src={Checkmark} alt="Checkmark icon" p="VS Code" />
+        <SkillsList src={Checkmark} alt="Checkmark icon" p="MS office" />
+
       </div>
     </div>
   </section>
