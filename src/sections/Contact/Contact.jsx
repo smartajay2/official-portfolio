@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section className="flex flex-col items-center  text-black p-6">
       <div className="w-full max-w-lg mt-10">
-        <h1 className="text-2xl font-bold mb-6 text-center">Contact</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center">Cont</h1>
         <form className="space-y-4 ml-8 mr-8 " action="https://formspree.io/f/mrbzkoyg" method="post">
           <div className="formGroup">
             <label htmlFor="name" className="sr-only">
