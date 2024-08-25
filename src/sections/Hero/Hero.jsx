@@ -48,7 +48,7 @@ function Hero() {
         <a href="https://x.com/ajayjestin1107" target="_blank" rel="noopener noreferrer">
           <img src={twitterIcon} alt="Twitter icon" className="h-10 w-10" />
         </a>
-        <a href="https://github.com/smartajay2/official-portfolio" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/smartajay2" target="_blank" rel="noopener noreferrer">
           <img src={githubIcon} alt="GitHub icon" className="h-10 w-10" />
         </a>
         <a href="https://www.linkedin.com/in/ajayjestin1107/" target="_blank" rel="noopener noreferrer">
