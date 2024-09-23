@@ -9,7 +9,6 @@ import linkedinlight from '../../assets/linkedin-light.svg'
 import linkedindark from '../../assets/linkedin-dark.svg'
 
 
-import CV from '../../assets/jestin.pdf'
 import { useTheme } from '../../common/TemeContext'
 
 
@@ -51,14 +50,14 @@ function Hero() {
         <a href="https://github.com/smartajay2" target="_blank" rel="noopener noreferrer">
           <img src={githubIcon} alt="GitHub icon" className="h-10 w-10" />
         </a>
-        <a href="https://www.linkedin.com/in/ajayjestin1107/" target="_blank" rel="noopener noreferrer">
+        <a href="www.linkedin.com/in/ajay-jestin-5a50b2215" target="_blank" rel="noopener noreferrer">
           <img src={LinkedinIcon} alt="LinkedIn icon" className="h-10 w-10" />
         </a>
       </div>
       <p className="max-w-[24ch] mt-4">
         With a passion for developing modern React web apps for commercial businesses.
       </p>
-      <a href={CV} download>
+      <a href={""} download>
         <button className="bg-white transition-transform transform hover:scale-105 font-bold py-2 px-4 rounded-lg border-2 border-black mt-4 shadow-md">
           Resume
         </button>
