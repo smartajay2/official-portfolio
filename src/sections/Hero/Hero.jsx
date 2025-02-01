@@ -23,10 +23,13 @@ function Hero() {
 
 
   return (
-    <section id="hero" className="h-screen flex flex-col md:flex-row justify-center items-center gap-10 text-center min-h-[500px] m-3">
-      <div className="relative md:w-1/2 flex justify-center md:justify-end">
+    <section
+      id="hero"
+      className="flex flex-col md:flex-row justify-center items-center gap-8 text-center min-h-[500px] py-10 px-4 md:px-12 lg:px-16 m-3 mb-16"
+    >
+      <div className="relative md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0">
         <img
-          className="w-full max-w-[250px] h-auto rounded-full shadow-md border-4 border-white ml-0 mt-11"
+          className="w-full max-w-[250px] h-auto rounded-full shadow-md border-4 border-white"
           src={myImg}
           alt="Profile of Ajay Jestin"
         />
@@ -39,11 +42,13 @@ function Hero() {
       </div>
 
       <div className="font-bold md:w-1/2 text-center md:text-left mt-6 md:ml-10 md:mt-20">
-        <h1 className="text-3xl">
+        <h1 className="text-3xl md:text-4xl">
           Ajay<br />Jestin
         </h1>
-        <h2 className="text-xl mt-2">MERN Stack Developer</h2>
-        <div className="inline-flex items-center justify-start gap-4 mt-4">
+        <p className="max-w-[24ch] mt-7 mx-auto md:mx-0">
+          Hi, I'm Ajay Jestin, an MBA graduate with a passion for solving problems and creating innovative solutions.
+        </p>
+        <div className="inline-flex items-center justify-center md:justify-start gap-4 mt-6">
           <a href="https://x.com/ajayjestin1107" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter icon" className="h-10 w-10" />
           </a>
@@ -51,23 +56,19 @@ function Hero() {
             <img src={githubIcon} alt="GitHub icon" className="h-10 w-10" />
           </a>
           <a href='https://www.linkedin.com/in/ajay-jestin-5a50b2215/' target='_blank' rel="noopener noreferrer">
-            <img src={LinkedinIcon} alt='Linkedin icon' className='h-10 w-10'/>
+            <img src={LinkedinIcon} alt='Linkedin icon' className='h-10 w-10' />
           </a>
-
         </div>
-        <p className="max-w-[24ch] mt-4">
-          With a passion for developing modern React web apps for commercial businesses.
+        <p className="max-w-[24ch] mt-7 mx-auto md:mx-0">
+          Focused on Data Science, specializing in Python, Machine Learning, and Data Analytics to solve real-world problems.
         </p>
-        <a href={""} download>
-          <button className="bg-white transition-transform transform hover:scale-105 font-bold py-2 px-4 rounded-lg border-2 border-black mt-4 shadow-md">
-            Resume
-          </button>
-        </a>
+
+
+
       </div>
     </section>
+  );
+};
 
-
-  )
-}
 
 export default Hero

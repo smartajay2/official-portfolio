@@ -11,7 +11,7 @@ import bulk from '../../assets/mailapp.png'; // If the file is named bulk-mail.p
 function Projects() {
   return (
     <section id="Projects" className="flex flex-col items-center mt-10 text-center">
-    <h1 className="text-3xl font-bold mb-6">Projects</h1>
+    <h1 className="text-3xl font-bold mb-6">Mern Stack Projects</h1>
     <div className="flex flex-wrap justify-center lg:justify-between w-full gap-6 lg:flex-row">
   <ProjectCard
     src={Weather}
