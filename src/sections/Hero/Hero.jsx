@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import myImg from '../../assets/my-photo.jpeg';
 import mine from '../../assets/p-1.jpg';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';

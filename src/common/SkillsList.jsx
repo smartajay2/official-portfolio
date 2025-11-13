@@ -8,7 +8,11 @@ function SkillsList({ src, p }) {
         src={src} 
         alt="Checkmark icon" 
       />
-      <p className='text-gray-800 font-semibold text-sm'>
+      
+      {/* *** CHANGE IS HERE *** Default color is text-gray-800 (for light mode).
+        In dark mode, it switches to dark:text-gray-200 (or dark:text-white).
+      */}
+      <p className='text-gray-800 dark:text-gray-200 font-semibold text-sm'>
         {p}
       </p>
     </span>
