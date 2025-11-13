@@ -2,9 +2,15 @@ import React from 'react'
 
 function SkillsList({ src, p }) {
   return (
-    <span className='center inline-flex items-baseline text-center ' >
-      <img className='w-5 h-5' src={src} alt="Checkmark icon" />
-      <p className='pr-6 mt-6 align-text-top no-underline'>{p}</p>
+    <span className='flex items-center space-x-3 p-2 rounded-md'>
+      <img 
+        className='w-6 h-6' 
+        src={src} 
+        alt="Checkmark icon" 
+      />
+      <p className='text-gray-800 font-semibold text-sm'>
+        {p}
+      </p>
     </span>
   )
 }
