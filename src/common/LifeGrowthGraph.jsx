@@ -64,7 +64,9 @@ export default function LifeGrowthGraph() {
                 angle={-20}
                 interval={0}
                 textAnchor="end"
+                tickFormatter={(year) => (year % 2 === 0 ? year : "")}
               />
+
 
               <YAxis
                 domain={[0, 100]}
