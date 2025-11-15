@@ -33,7 +33,7 @@ const Certifications = () => {
     <section
       className={`certifications-section ${theme === "light" ? "bg-white text-black" : "bg-black text-white"}`}
     >
-      <h2>Certifications</h2>
+      <h2>Coursework</h2>
       <ul>
         {certifications.map((cert, idx) => (
           <li
