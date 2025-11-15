@@ -3,15 +3,15 @@ import { BrainCircuit } from "lucide-react";
 
 const OngoingStudies = () => {
   const studies = [
-    { name: "Data Science with Python", progress: 70 },
+    { name: "Data Science with Python", progress: 75 },
     { name: "Machine Learning", progress: 60 },
-    { name: "Deep Learning", progress: 50 },
+    { name: "Deep Learning", progress: 30 },
     { name: "NumPy & Pandas", progress: 75 },
     { name: "Statistics", progress: 65 },
-    { name: "SQL", progress: 80 },
+    { name: "SQL", progress: 75 },
     { name: "Power BI", progress: 70 },
     { name: "Excel", progress: 90 },
-    { name: "Tableau", progress: 60 },
+    { name: "Tableau", progress: 40 },
   ];
 
   // State to store animated progress

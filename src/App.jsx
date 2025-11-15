@@ -3,6 +3,7 @@ import Contact from './sections/Contact/Contact';
 import Hero from './sections/Hero/Hero';
 import Currentlearning from './common/Currentlearning';
 import Certifications from './common/certificationsCard';
+import LifeGrowthGraph from './common/LifeGrowthGraph';
 
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
@@ -20,6 +21,7 @@ function App(){
       <Projects/>
       <Skills/>
       <Certifications/>
+      <LifeGrowthGraph/>
       <Contact/>
       <Footer/>
     </div>
